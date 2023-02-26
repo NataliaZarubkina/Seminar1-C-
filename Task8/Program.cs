@@ -7,7 +7,7 @@ else
 {
     int counter = 1;
     int result = 0;
-    while (counter < userNumber1)
+    while (counter <= userNumber1)
     {
         result = counter % 2;
         if (result == 0)
